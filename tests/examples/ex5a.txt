@@ -1,0 +1,21 @@
+Entrada:
+1 2 3 4 1 2 5 1 2 3 4 5
+
+Cache:
+3
+
+Saida:
+===== FIFO =====
+5
+3
+4
+Misses: 9
+Fault Rate: 0.75
+
+===== LRU ======
+3
+4
+5
+Misses: 10
+Fault Rate: 0.83
+
